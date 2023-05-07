@@ -1,0 +1,60 @@
+.form {
+    background: black;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.form-div {
+    background: black;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #f88e245f;
+    width: 500px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.submit {
+    background-color: #0B2D36;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background: grey;
+    transition: 1s;
+    border: 1px solid #f88e245f;
+    color: #0B2D36;
+}
+
+@media only screen and (max-width: 750px) {
+    input {
+        width: 300px;
+    }
+}
+
+.message {
+    display: none;
+}

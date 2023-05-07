@@ -1,0 +1,32 @@
+.buttoncss{
+    background-color: #0B2D36;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin: 0;
+    border-radius: 5px;
+    margin: 15px 0px;
+    width: 20vw;
+    font-size: 1.5vw;
+}
+
+.buttoncss:hover{
+    background-color: #696969;
+    transition: 1s;
+    color: #0B2D36;
+}
+
+@media only screen and (max-width: 550px) {
+    .movieimage{
+        width: 40vw;
+        height: 55vh;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 0px black;
+    }
+    .buttoncss{
+        width: 30vw;
+    }
+  }
