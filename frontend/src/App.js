@@ -2,6 +2,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Card from './components/Card';
 import Summary from './pages/Summary';
+// 
+
+// try new laptop
 
 function App() {
   return (
