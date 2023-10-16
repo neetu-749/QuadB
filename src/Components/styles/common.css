@@ -1,0 +1,50 @@
+.font-nunito {
+    font-family: 'Nunito', Regular;
+  }
+  .is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: gray; 
+    /*#84A096!important ;*/
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .dashboard-top-menu{
+    background-color: #246eaa;
+    /*#84A096!important;*/
+  }
+  .scroll-to-top {
+    background-color: rgba(0,0,0,0.4) !important;
+    right: 40px;
+    bottom: 40px;
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 50% !important;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 9px 25px 0 rgb(132 128 177 / 28%);
+    border: none;
+    text-align: center;
+    transition: ease-in 0.2s;
+  }
+  .scroll-to-top:hover
+  {
+  background-color:rgba(0,0,0,0.8) !important ;
+  }
+  .scroll-to-top svg{
+    margin: 0px auto !important;
+    padding: 0px !important;
+    width:20px;
+    height: 20px;
+    fill: #ffffff;
+  }
+  *:focus-visible{
+    outline: 2px solid rgb(70, 203, 255);
+  }
+  
